@@ -1,5 +1,2 @@
-matplotlib
-scipy
-plotly==4.14.3
-plotly.graph_objects
-plotly.express
+docxtpl
+streamlit_pdf_reader

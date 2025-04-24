@@ -1,2 +1,3 @@
 docxtpl
 streamlit_pdf_reader
+plotly

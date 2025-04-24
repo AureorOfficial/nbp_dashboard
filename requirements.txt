@@ -1,0 +1,3 @@
+plotly.express
+scipy.stats
+plotly.graph_objects

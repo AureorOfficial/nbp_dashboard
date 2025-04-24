@@ -86,7 +86,7 @@ if start_date < end_date:
 
             with col2:
                 xx = pd.Series(df["Kurs średni"]).rolling(window=n).mean().iloc[n-1:].values
-                fig2 = px.line(df, x=range(len(xx)), y=xx, title=f"srednia krocząca {currency} w oknie {n} dni")
+                fig2 = px.line(df, x=range(len(xx)), y=xx, title=f"średnia krocząca {currency} w oknie {n} dni")
                 st.plotly_chart(fig2)
                 
                 mu = df['Rt_percent'].mean()
